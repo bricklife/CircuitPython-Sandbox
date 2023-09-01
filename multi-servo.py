@@ -5,6 +5,7 @@ import pwmio
 from adafruit_motor import servo
 
 pins = [board.D1, board.D2] # ATOMS3 Lite (GROVE)
+#pins = [board.GP0, board.GP1] # Raspberry Pi Pico
 
 servos = []
 for pin in pins:
